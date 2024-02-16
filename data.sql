@@ -20,3 +20,37 @@ INSERT INTO employees VALUES
 (5,'Emily Sierra', 'Customer Service', '351083098','Emily.s@ luckyshrub.com',35000), 
 (6,'Maria Carter', 'Human Resources', '351022508','Maria.c@ luckyshrub.com',55000),
 (7,'Rick Griffin', 'Marketing', '351478458','Rick.G@luckyshrub.com',50000);
+
+/*
+
+Use the AND operator to find employees who earn an annual salary of $50,000 or more attached to the Marketing department.
+
+SELECT * 
+FROM employees
+WHERE AnnualSalary >= 50000 AND department = 'Marketing';
+
+Use the NOT operator to find employees not earning over $50,000 across all departments.
+
+SELECT *
+FROM employees
+WHERE NOT AnnualSalary > 50000;
+
+Use the IN operator to find Marketing, Finance, and Legal employees whose annual salary is below $50,000. 
+
+SELECT *
+FROM employees
+WHERE Department IN ('Marketing', 'Finance', 'Legal') AND AnnualSalary < 50000;
+
+Use the BETWEEN operator to find employees who earn annual salaries between $10,000 and $50,000.
+
+SELECT *
+FROM employees
+WHERE AnnualSalary BETWEEN 10000 AND 50000;
+
+Use the LIKE operator to find employees whose names start with ‘S’ and are at least 4 characters in length.
+
+SELECT *
+FROM employees
+WHERE EmployeeName LIKE 'S___%';
+
+/*
