@@ -28,3 +28,26 @@ CREATE TABLE Stock (
   Quantity INT,
   TotalPrice DECIMAL(12, 2)
 );
+
+/*
+
+2.  Based on 'CM Mobiles' requirements the customers table will have three columns: 
+
+●	username 
+●	full name 
+●	email address
+
+3.  The customer username contains alphanumeric values such as: Custom001, Custom002, and Custom003. Notice here that the username is always nine characters in length, so choose the CHAR datatype as it allows for a fixed length of characters. In this case, choose 9 characters, no more or less. Therefore you can declare the username in the SQL statement using the following SQL syntax:
+*/
+
+CREATE TABLE customers (
+  username CHAR(9) PRIMARY KEY,
+  full_name VARCHAR(100) NOT NULL,
+  email_address VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE customer_feedback (
+  FeedbackID INT PRIMARY KEY,
+  FeedbackType VARCHAR(100) NOT NULL,
+  Comment VARCHAR(500) NOT NULL
+);
