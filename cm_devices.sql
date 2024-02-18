@@ -51,3 +51,63 @@ CREATE TABLE customer_feedback (
   FeedbackType VARCHAR(100) NOT NULL,
   Comment VARCHAR(500) NOT NULL
 );
+
+CREATE TABLE address (
+  id INT NOT NULL,
+  street VARCHAR(255),
+  postcode VARCHAR(10),
+  town VARCHAR(30) DEFAULT 'Harrow'
+);
+
+/*
+altering the table adress
+*/
+
+DROP TABLE IF EXISTS address;
+
+CREATE TABLE address (
+  id INT NOT NULL,
+  street VARCHAR(255),
+  postcode VARCHAR(10) DEFAULT 'HA97DE',
+  town VARCHAR(30) DEFAULT 'Harrow'
+);
+
+CREATE TABLE invoice (
+    customerName VARCHAR(50), 
+    orderDate DATE, 
+    quantity INT, 
+    price DECIMAL
+); 
+
+CREATE TABLE customer_contact_details (
+  customer_account_number VARCHAR(20) PRIMARY KEY,
+  customer_phone_number VARCHAR(15),
+  customer_email_address VARCHAR(255)
+);
+
+/*
+
+changing name to Account Customer
+
+*/
+
+
+ALTER TABLE customer_contact_details
+CHANGE COLUMN customer_account_number `Account Customer` VARCHAR(20);
+
+/* or use alias: */
+
+CREATE TABLE customer_contact_details (
+  customer_account_number VARCHAR(20) PRIMARY KEY,
+  customer_phone_number VARCHAR(15),
+  customer_email_address VARCHAR(255)
+);
+
+SELECT
+  customer_account_number AS `Account Customer`,
+  customer_phone_number,
+  customer_email_address
+FROM
+  customer_contact_details;
+
+  
