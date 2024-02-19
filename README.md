@@ -15,4 +15,6 @@ Below, a screenshot of the database structure from mangata_gallo_new:
 
 ![mangata_gallo_new](https://github.com/alicemdias/database/assets/78986599/3e479806-de1a-46c2-a364-57032bb0ad78)
 
+Below, a Dimensional Data Model in Star Schema (star_schema.mwb file):
 
+![image](https://github.com/alicemdias/database/assets/78986599/46fba52f-886d-43a2-83c5-dcca5eb07b64)
