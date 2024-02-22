@@ -27,3 +27,7 @@ Interactive dashboard on Tableau filtering data with map charts:
 
 ![Screenshot_11](https://github.com/alicemdias/database/assets/78986599/0fa418c3-4042-4f0e-8111-e89ac9bb89c8)
 
+Another interactive data analysis dashboard:
+
+ ![Sales and Profits USA](https://github.com/alicemdias/database/assets/78986599/4db9adae-9bc3-4c74-b9b2-47ca19906825)
+
