@@ -18,3 +18,7 @@ Below, a screenshot of the database structure from mangata_gallo_new:
 Below, a Dimensional Data Model in Star Schema (star_schema.mwb file):
 
 ![image](https://github.com/alicemdias/database/assets/78986599/46fba52f-886d-43a2-83c5-dcca5eb07b64)
+
+Below, a Data Visualisation on Tableau, filtering a database to show sales in Canada:
+
+![Screenshot_10](https://github.com/alicemdias/database/assets/78986599/bdc52dad-b815-4b4d-8783-6afcbe86ace4)
