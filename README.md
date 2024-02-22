@@ -22,3 +22,8 @@ Below, a Dimensional Data Model in Star Schema (star_schema.mwb file):
 Below, a Data Visualisation on Tableau, filtering a database to show sales in Canada:
 
 ![Screenshot_10](https://github.com/alicemdias/database/assets/78986599/bdc52dad-b815-4b4d-8783-6afcbe86ace4)
+
+Interactive dashboard on Tableau filtering data with map charts:
+
+![Screenshot_11](https://github.com/alicemdias/database/assets/78986599/0fa418c3-4042-4f0e-8111-e89ac9bb89c8)
+
