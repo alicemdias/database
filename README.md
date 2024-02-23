@@ -5,7 +5,7 @@ This repository demonstrates SQL table creation and manipulation techniques. It 
 Highlights
 Table Creation: Exploring SQL scripts in the database folder for creating tables with different structures.
 
-Data Insertion: Populating tables with sample data using SQL scripts.
+Data Insertion: Populating tables with sample data using SQL scripts..
 
 Query Examples: The queries folder contains SQL queries showcasing table manipulation, including filtering, grouping, joining, replacing, constraints
 
